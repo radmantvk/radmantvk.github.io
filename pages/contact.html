@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/contact.css">
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<header class="container-sm mt-2 navbar navbar-expand-lg" id="navigation">
+    <a href="./index.html" class="navbar-brand">RADMAN AVAKOLI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../Resume.pdf" class="nav-link" download="Radman-Avakoli-Resume">Resume</a></li>
+            <li class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Projects
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shot Tracker</a></li>
+                <li><a class="dropdown-item" href="#">UBC Query Engine</a></li>
+                <li><a class="dropdown-item" href="#">Flappy Bird</a></li>
+                <li><a class="dropdown-item" href="https://github.com/radmantvk/datascience-linear-regression-project">Linear Regression</a></li>
+            </ul>
+            <li class="nav-item btn btn-black btn-rounded"><a href="./pages/contact.html" class="nav-link">Contact Me</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    <main class="container">
+        <form action="https://formsubmit.co/f5bd239392e27320694501c68b70e98c" method="POST">
+            <!-- <label for="username">Name: </label>
+            <input type="text" placeholder="name", id="username" name="username" required>
+
+
+            <label for="email">Email: </label>
+            <input type="email" placeholder="email", id="email" name="email" required> -->
+            <p class="d-flex justify-content-around">
+                <label for="username">Name: </label>
+                <input type="text" placeholder="name", id="username" name="username" required>
+
+
+                <label for="email">Email: </label>
+                <input type="email" placeholder="email", id="email" name="email" required>
+            </p>
+            <p class="d-flex align-items-start justify-content-center">
+                <label for="message">Message: </label>
+                <!-- <br> -->
+                <textarea id="message" rows="5" cols="30" placeholder="type your message" name="message"></textarea>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+<footer class="container"> 
+        
+    <a href="https://www.linkedin.com/in/radman-avakoli"><i class="bi bi-linkedin"></i></a>
+    <a href="mailto: radmantvk@gmail.com"><i class="bi bi-envelope"></i></a>
+    <a href="https://www.instagram.com/_radman_t/"><i class="bi bi-instagram"></i></a>
+    <a href="tel: 6047043341">(604) 704-3341</a>
+</footer>
+</html>

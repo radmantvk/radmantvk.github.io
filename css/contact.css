@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgba(134, 95, 111, 0.879);
+    background-image: url("../profilePic.JPEG");
+    background-size: cover;
+    height: 100vh; 
+    background-repeat:no-repeat; 
+    background-position: 0 55%;
+    background-position: 55% 55%;
+    color: rgb(64, 0, 92);
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    border: rgba(134, 95, 111, 0.879) solid;
+    background-color: rgba(187, 154, 169, 0.781);
+    border-width: 1px 1vh;
+    border-radius: 10em;
+    transform: scaleX(1.001);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header .navbar {
+    border: rgba(134, 95, 111, 0.879) solid;
+    background-color: rgba(187, 154, 169, 0.781);
+    border-radius: 10em;
+    /* padding: 1vh 3%; */
+}
+
+#navigation {
+    padding: 1vh 2vw;
+}
+
+#navigation:hover {
+    transition: 0.25s ease-in;
+    background-color: rgba(187, 154, 169, 0.907);
+    transform: scale(1.003);
+}
+
+/* header nav ui, .contact {
+    padding: 0.6vw 1.4vw;
+    border-radius: 45%;
+    border: 3px rgb(134, 95, 111) solid;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: radial-gradient(rgba(251, 178, 178, 0.617), rgba(250, 124, 124, 0.617), rgba(247, 87, 87, 0.617));
+} */
+
+/* header nav #resume {
+    display: flex;
+} */
+
+
+/* header nav .contact {
+    border-radius: 0.5em;
+    background: linear-gradient(rgb(251, 110, 110),
+                                rgb(255, 142, 142),
+                                rgb(251, 147, 147),
+                                rgb(255, 142, 142),
+                                rgb(251, 110, 110));
+} */
+
+/* header nav .logo {
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 21;
+} */
+
+/* header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.6;
+} */
+
+/* header nav ui:hover, header nav .contact:hover {
+    transition: 0.20s;
+    border-radius: 43%;
+    background-color: rgb(251, 178, 178);
+    transition-timing-function:ease-in-out;
+    transform: scale(1.05);
+} */
+
+/* header nav .contact:hover {
+    border-radius: 4%;
+    background-color: rgb(251, 178, 178);
+} */
+
+
+main {
+    min-width: 50%;
+    min-height: 50%;
+    width: 70%;
+    margin: 3em auto;
+}
+
+form {
+    box-sizing: border-box;
+    margin-left: 1em;
+    width: 50%;
+    height: 65vh;
+    border-width: 1vh 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(134, 95, 111, 0.879);
+    background-color: rgba(187, 154, 169, 0.781);
+    border-radius: 10%;
+    min-height: 300px;
+    min-width: 230px;
+    /* font-size: x-large; */
+    font-weight:500;
+    padding: 1.1em;
+}
+
+form:hover {
+    transition: 0.2s ease-in;
+    background-color: rgba(187, 154, 169, 0.907);
+    transform: scale(1.003);
+}
+
+p::selection {   /* highlight the selected area */
+    background-color: rgba(251, 178, 178, 0.617)
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    bottom: 1.5vh;
+    left: 1.5vh;
+}
+
+footer i {
+    padding: 2px;
+    transform: scale(2, 2);
+}
+/* body {
+    background-image: url("../profilePic.JPEG");
+    background-size: cover;
+    height: 100vh;  
+    background-repeat:no-repeat;
+} */
+
+/* header nav {
+    width: 57.5%;
+    min-width: 500px;
+    padding: 1vh 5%;
+    margin: auto;
+    border: rgba(134, 95, 111, 0.879) solid;
+    background-color: rgba(187, 154, 169, 0.781);
+    border-width: 1px 1.5vh;
+    border-radius: 10em;
+    transform: scaleX(1.001);
+}
+
+header nav:hover {
+    transition: 0.25s ease-in;
+    background-color: rgba(187, 154, 169, 0.907);
+    transform: scale(1.003);
+}
+
+
+header nav a {
+    padding: 0.6vw 1.4vw;
+    border-radius: 43%;
+    border: 3px rgb(134, 95, 111) solid;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: radial-gradient(rgba(251, 178, 178, 0.617), rgba(250, 124, 124, 0.617));
+} */
+
+/* header nav a:hover {
+    transition: 0.25s;
+    border-radius: 47%;
+    background-color: rgb(251, 178, 178);
+    transition-timing-function:ease-in-out;
+    transform: scale(1.05);
+}
+
+main {
+    min-width: 50%;
+    min-height: 50%;
+    width: 70%;
+    margin: 3em auto;
+}
+
+form {
+    margin-left: 1em;
+    width: 50%;
+    height: 60vh;
+    border-width: 2vh 1px 1px 1px;
+    border-style: solid;
+    border-color: bisque;
+    border-color: rgba(134, 95, 111, 0.879);
+    background-color: rgba(187, 154, 169, 0.781);
+    border-radius: 10%;
+    min-height: 200px;
+    font-size: x-large;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* form:hover {
+    transition: 0.25s ease-in;
+    background-color: rgba(187, 154, 169, 0.907);
+    transform: scale(1.003);
+} */
