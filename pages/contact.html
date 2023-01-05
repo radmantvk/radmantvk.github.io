@@ -2,43 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="../css/contact.css">
+    <link href="../css/contact.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    <!-- CSS only -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
    <!-- JavaScript Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
-<header class="container-sm mt-2 navbar navbar-expand-lg" id="navigation">
-    <a href="./index.html" class="navbar-brand">RADMAN AVAKOLI</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button> -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="../Resume.pdf" class="nav-link" download="Radman-Avakoli-Resume">Resume</a></li>
-            <li class="dropdown">
-            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            Projects
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Shot Tracker</a></li>
-                <li><a class="dropdown-item" href="#">UBC Query Engine</a></li>
-                <li><a class="dropdown-item" href="#">Flappy Bird</a></li>
-                <li><a class="dropdown-item" href="https://github.com/radmantvk/datascience-linear-regression-project">Linear Regression</a></li>
-            </ul>
-            <li class="nav-item btn btn-black btn-rounded"><a href="./pages/contact.html" class="nav-link">Contact Me</a></li>
-        </ul>
-    </div>
-</header>
 <body>
-    <main class="container">
+    <header class="container-sm mt-2 navbar navbar-expand-lg" id="navigation">
+        <a href="./index.html" class="navbar-brand">RADMAN AVAKOLI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../Resume.pdf" class="nav-link" download="Radman-Avakoli-Resume">Resume</a></li>
+                <li class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Projects
+                    </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Shot Tracker</a></li>
+                    <li><a class="dropdown-item" href="#">UBC Query Engine</a></li>
+                    <li><a class="dropdown-item" href="#">Flappy Bird</a></li>
+                    <li><a class="dropdown-item" href="https://github.com/radmantvk/datascience-linear-regression-project">Linear Regression</a></li>
+                </ul>
+                <li class="nav-item btn btn-black btn-rounded"><a href="../pages/contact.html" class="nav-link">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="container min-vw-70">
         <form action="https://formsubmit.co/f5bd239392e27320694501c68b70e98c" method="POST">
             <!-- <label for="username">Name: </label>
             <input type="text" placeholder="name", id="username" name="username" required>
@@ -46,7 +47,9 @@
 
             <label for="email">Email: </label>
             <input type="email" placeholder="email", id="email" name="email" required> -->
-            <p class="d-flex justify-content-around">
+
+
+            <!-- <p class="d-flex justify-content-around">
                 <label for="username">Name: </label>
                 <input type="text" placeholder="name", id="username" name="username" required>
 
@@ -56,18 +59,46 @@
             </p>
             <p class="d-flex align-items-start justify-content-center">
                 <label for="message">Message: </label>
-                <!-- <br> -->
                 <textarea id="message" rows="5" cols="30" placeholder="type your message" name="message"></textarea>
             </p>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> -->
+            <div class="contact-form-controls">
+                <div class="row mb-3 mx-2">
+                    <div class="form-group col">
+                        <label for="username">Name:</label>
+                        <input type="text" class="form-control" id="username" placeholder="name" required>
+                    </div>
+                    <div class="form-group col">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                </div>
+                <div class="row mb-3 mx-2">
+                    <div class="form-group col">
+                        <label for="message">Message:</label>
+                        <textarea
+                            class="form-control"
+                            style="resize: none;"
+                            name="message"
+                            id="message"
+                            placeholder="message"
+                            rows="15"
+                            required
+                        ></textarea>
+                        <!-- <input type="textarea" class="form-control" id="message" placeholder="message"> -->
+                    </div>
+                </div>
+                <div class="row text-center mb-3 mx-2">
+                    <div class="col"><button type="submit" class="btn btn-primary text-center w-25">Submit</button></div>
+                </div>
+            </div>
         </form>
     </main>
+    <footer class="container"> 
+        <a class="media-logo" href="https://www.linkedin.com/in/radman-avakoli"><i class="bi bi-linkedin"></i></a>
+        <a class="media-logo" href="mailto: radmantvk@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a class="media-logo" href="https://www.instagram.com/_radman_t/"><i class="bi bi-instagram"></i></a>
+        <a class="media-logo text-decoration-none" href="tel:6047043341">(604) 704-3341</a>
+    </footer>
 </body>
-<footer class="container"> 
-        
-    <a href="https://www.linkedin.com/in/radman-avakoli"><i class="bi bi-linkedin"></i></a>
-    <a href="mailto: radmantvk@gmail.com"><i class="bi bi-envelope"></i></a>
-    <a href="https://www.instagram.com/_radman_t/"><i class="bi bi-instagram"></i></a>
-    <a href="tel: 6047043341">(604) 704-3341</a>
-</footer>
 </html>
