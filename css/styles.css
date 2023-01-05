@@ -44,56 +44,6 @@ header .navbar {
     transform: scale(1.003);
 }
 
-/* header nav ui, .contact {
-    padding: 0.6vw 1.4vw;
-    border-radius: 45%;
-    border: 3px rgb(134, 95, 111) solid;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    background: radial-gradient(rgba(251, 178, 178, 0.617), rgba(250, 124, 124, 0.617), rgba(247, 87, 87, 0.617));
-} */
-
-/* header nav #resume {
-    display: flex;
-} */
-
-
-/* header nav .contact {
-    border-radius: 0.5em;
-    background: linear-gradient(rgb(251, 110, 110),
-                                rgb(255, 142, 142),
-                                rgb(251, 147, 147),
-                                rgb(255, 142, 142),
-                                rgb(251, 110, 110));
-} */
-
-/* header nav .logo {
-    flex-basis: 20%;
-    flex-grow: 1;
-    flex-shrink: 21;
-} */
-
-/* header nav ul {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 0.6;
-} */
-
-/* header nav ui:hover, header nav .contact:hover {
-    transition: 0.20s;
-    border-radius: 43%;
-    background-color: rgb(251, 178, 178);
-    transition-timing-function:ease-in-out;
-    transform: scale(1.05);
-} */
-
-/* header nav .contact:hover {
-    border-radius: 4%;
-    background-color: rgb(251, 178, 178);
-} */
-
-
 main {
     min-width: 50%;
     min-height: 50%;
@@ -101,32 +51,6 @@ main {
     margin: 3em auto;
 }
 
-.about {
-    box-sizing: border-box;
-    margin-left: 1em;
-    width: 50%;
-    height: 65vh;
-    border-width: 1vh 1px 1px 1px;
-    border-style: solid;
-    border-color: rgba(134, 95, 111, 0.879);
-    background-color: rgba(187, 154, 169, 0.781);
-    border-radius: 10%;
-    min-height: 300px;
-    min-width: 230px;
-    /* font-size: x-large; */
-    font-weight:500;
-    padding: 1.1em;
-}
-
-.about:hover {
-    transition: 0.2s ease-in;
-    background-color: rgba(187, 154, 169, 0.907);
-    transform: scale(1.003);
-}
-
-p::selection {   /* highlight the selected area */
-    background-color: rgba(251, 178, 178, 0.617)
-}
 
 header nav ul {
     display: flex;
@@ -136,49 +60,21 @@ header nav ul {
     align-items: stretch;
 }
 
-/* header nav ul ui:nth-of-type(5){
-    flex-shrink: 0.5;
-    flex-grow: 0.5;
-} */
-
-/* @media (max-width: 1350px) {
-    header nav ui, .contact {
-        padding: 0.3em 0.6em;
-        border-width: 2px;
-        font-size: 0.9em;
-        font-weight: large;
-    }
-    header nav ul {
-        flex-grow: 2;
-    }
-
-    .about {
-        font-size: large;
-        min-width: 40vw;
-    }
+p::selection {   /* highlight the selected area */
+    background-color: rgba(251, 178, 178, 0.617)
 }
 
-@media (max-device-width: 750px) {
-    .about {
-        width: 100%;
-        margin: 0;
-    }
-    
-} */
-
-
-/* header ul.navbar-nav {
-    flex-direction: row;
-} */
 footer {
     position: fixed;
     display: block;
     bottom: 1.5vh;
     left: 1.5vh;
-    /* transform: scale(2, 2); */
-    
 }
 footer i {
     padding: 2px;
     transform: scale(2, 2);
+}
+.media-logo {
+    font-size: 1.75em;
+    margin: 0 0.2em;
 }
